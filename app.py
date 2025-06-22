@@ -23,6 +23,7 @@ except Exception as e:
 # Sidebar
 st.sidebar.header("🔍 Filter by Cluster")
 selected_clusters = st.sidebar.multiselect("Select Clusters", options=sorted(df['cluster'].unique()), default=sorted(df['cluster'].unique()))
+st.sidebar.write(f"Currently selected: {selected_clusters}")
 
 # Filter data
 filtered_df = df[df['cluster'].isin(selected_clusters)]

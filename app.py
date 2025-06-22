@@ -25,8 +25,7 @@ st.sidebar.header("🔍 Filter by Cluster")
 selected_clusters = st.sidebar.multiselect("Select Clusters", options=sorted(df['cluster'].unique()), default=sorted(df['cluster'].unique()))
 
 # Filter data
-filtered_df = df[filtered_df['cluster'].isin(selected_clusters)]
-
+filtered_df = df[df['cluster'].isin(selected_clusters)]
 # Cluster Summary
 st.subheader("📊 Cluster Summary Statistics")
 st.dataframe(filtered_df.groupby('cluster')[['gt', 'dwt', 'length', 'width', 'built_year']].mean().round(1))

@@ -3,7 +3,7 @@
 ![Vacation Image](https://github.com/Onabanjomicheal/Cargo-Ship-Dashboard/blob/main/Vacation.png)
 
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/Onabanjomicheal/Cargo-Ship-Dashboard/main/app.py)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://cargo-ship-dashboard-5jtfekecvvhjrjcksewmve.streamlit.app/)
 
 An interactive web application designed to visualize and explore clusters of cargo ships based on their key characteristics. This dashboard transforms complex ship data into actionable insights, aiding in maritime market analysis, fleet optimization, and strategic decision-making.
 

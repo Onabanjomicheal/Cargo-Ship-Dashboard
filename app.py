@@ -23,7 +23,7 @@
     selected_clusters = st.sidebar.multiselect("Select Clusters", options=sorted(df['cluster'].unique()), default=sorted(df['cluster'].unique()))
 
     # Filter data
-    filtered_df = df[df['cluster'].isin(selected_clusters)]
+    filtered_df = df[filtered_df['cluster'].isin(selected_clusters)]
 
     # Cluster Summary
     st.subheader("📊 Cluster Summary Statistics")
